@@ -18,8 +18,8 @@ const Home = () => {
         <a href='mailto:etse1984@gmail.com' className='bg-etse-primary rounded-md px-12 py-3 z-40 text-xl hover:bg-etse-primary-hover mt-5 text-[white]'>
           Schedule a Consultation
         </a>
-        <img className='max-w-[900px] rounded-lg mt-10 z-20' src="https://www.sjkelec.co.uk/wp-content/uploads/2023/10/AdobeStock_469246371-1.jpeg" alt="AV" />
-        <p className='text-lg my-4'>
+        <img className='md:max-w-[900px] rounded-lg mt-10 z-20' src="https://www.sjkelec.co.uk/wp-content/uploads/2023/10/AdobeStock_469246371-1.jpeg" alt="AV" />
+        <p className='text-lg my-4 text-center'>
           We are trusted by several brands. You can too!
         </p>
       </section>
@@ -32,7 +32,7 @@ const Home = () => {
                             {
                                 CUSTOMERS.map((customer, index) => (
                                     <div key={index} className='relative w-[150px] m-10 shrink-0 flex items-center'>
-                                        <img src={`${customer}`} alt={"AV"} className='object-contain max-h-[100px] w-[150px]' />
+                                        <img src={`${customer}`} alt={"AV"} className='object-contain max-h-[70px] md:max-h-[100px] w-[150px]' />
                                     </div>
                                 ))
                             }
