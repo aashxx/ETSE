@@ -12,7 +12,7 @@ const Home = () => {
         <p className='my-6 md:text-xl text-lg text-center'>
           Delivering Excellence in Electrical Testing and Services
         </p>
-        <a href='mailto:' className='bg-etse-primary rounded-md px-12 py-3 z-50 text-xl hover:bg-etse-primary-hover mt-8 text-[white]'>
+        <a href='mailto:' className='bg-etse-primary rounded-md px-12 py-3 z-40 text-xl hover:bg-etse-primary-hover mt-8 text-[white]'>
           Schedule a Consultation
         </a>
       </section>

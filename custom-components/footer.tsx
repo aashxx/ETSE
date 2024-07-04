@@ -7,9 +7,9 @@ const Footer = () => {
     return (
         <footer className='flex flex-col px-4 py-6 bg-etse-primary text-[white]'>
             <div className='flex flex-col justify-between gap-6 md:flex-row md:mx-32 md:py-10'>
-                <article className='flex flex-col items-center gap-4'>
-                    <h3 className='text-3xl font-[900]'>
-                        ETSE.
+                <article className='flex flex-col items-center gap-4 w-[200px]'>
+                    <h3 className='text-2xl font-semibold'>
+                        Electrical Testing & Service Engineers.
                     </h3>
                 </article>
                 <aside className='flex flex-wrap gap-6 px-10 justify-center my-10 md:my-[unset] md:gap-14'>
