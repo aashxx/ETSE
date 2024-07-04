@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <main className='relative overflow-hidden pt-7 md:pt-24 overflow-x-hidden text-etse-secondary px-6'>
+        <main className='relative overflow-hidden pt-11 md:pt-24 overflow-x-hidden text-etse-secondary px-6'>
             <section className='flex flex-col items-center py-10 mt-6 md:mt-0 text-center gap-10 md:items-start md:text-left md:px-32 md:gap-4'>
                 <h1 className='md:text-5xl text-4xl text-center w-full px-4 text-etse-primary'>
                     About Us
