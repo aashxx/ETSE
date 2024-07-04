@@ -13,7 +13,7 @@ const Footer = () => {
                     </h3>
                 </article>
                 <aside className='flex flex-wrap gap-6 px-10 justify-center my-10 md:my-[unset] md:gap-14'>
-                <article className='flex flex-col gap-3'>
+                    {/* <article className='flex flex-col gap-3'>
                         <h3 className='text-sm'>
                             <Link href="/">
                                 Socials
@@ -36,37 +36,56 @@ const Footer = () => {
                                 </a>
                             </li>
                         </ul>
-                    </article>
+                    </article> */}
                     <article className='flex flex-col gap-3'>
                         <h3 className='text-sm'>
-                            <Link href="/">
+                            <Link href="/about">
                                 About
                             </Link>
                         </h3>
                         <ul className='text-sm'>
                             <li>
-                                <a href="/">
+                                <Link href="/about">
                                     Company
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/">
-                                    Vision
-                                </a>
+                                <Link href="/about">
+                                    Authorization
+                                </Link>
                             </li>
                             <li>
-                                <a href="/">
-                                    Mission
-                                </a>
+                                <Link href="/about">
+                                    Customers
+                                </Link>
                             </li>
                         </ul>
                     </article>
                     <article className='flex flex-col gap-3'>
-                        <h3 className='text-sm'>
+                        <Link href={'/services'} className='text-sm'>
                             Services
-                        </h3>
+                        </Link>
                         <ul className='text-sm'>
-                            <li>Coming Soon!</li>
+                            <li>
+                                <Link href="/services">
+                                    Testing & Calibration
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/services">
+                                    Transformers
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/services">
+                                    Maintenance
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/services">
+                                    Approvals
+                                </Link>
+                            </li>
                         </ul>
                     </article>
                     <article className='flex flex-col gap-3'>
@@ -103,8 +122,8 @@ const Footer = () => {
                     All rights reserved &copy; 2024.
                 </h4>
                 <div className='text-[13px] font-light py-1 px-4 rounded-2xl text-[white] transition-all duration-300 ease-out border border-[white] hover:bg-[white] hover:text-etse-primary'>
-                    <Link href='/'>
-                        Schedule
+                    <Link href='/contact'>
+                        Book
                     </Link>
                 </div>
             </aside>

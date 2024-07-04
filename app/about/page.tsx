@@ -43,7 +43,7 @@ const About = () => {
                     <article className='flex flex-wrap gap-14 items-center justify-center'>
                         {
                             CUSTOMERS.map((customer, index) => (
-                                <img key={index} className='w-[130px]' src={customer} alt="AV" />
+                                <img key={index} className='w-[150px] h-[100px]' src={customer} alt="AV" />
                             ))
                         }
                     </article>
