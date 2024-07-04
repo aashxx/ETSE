@@ -9,7 +9,7 @@ const About = () => {
                     About Us
                 </h1>
                 <p className='text-lg max-w-[900px] mx-auto my-8'>
-                    Our company started in 1984 exclusively as a Service Oriented Technocrat Organization for testing and commissioning of Electrical Installations and now it's becoming a solution provider for many industries.
+                    Our company started in 1984 exclusively as a Service Oriented Technocrat Organization for testing and commissioning of Electrical Installations and now it&apos;s becoming a solution provider for many industries.
                 </p>
                 <div className='flex flex-col-reverse md:flex-row justify-between max-w-[900px] mx-auto gap-10 md:gap-32'>
                     <aside>
@@ -17,7 +17,7 @@ const About = () => {
                             Our Founder
                         </h2>
                         <p className='text-lg text-justify'>
-                            Late <strong className='font-bold'>Shri J. VENKATASWAMY,</strong> the founder and the brain behind the company's establishment, growth and success. His consistent developments over 39years made ELECTRICAL TESTING AND SERVICE ENGINEERS one of the leading solution provider in power sectors. His hard efforts has been paid off and the company now celebrating 39 years of excellency. 
+                            Late <strong className='font-bold'>Shri J. VENKATASWAMY,</strong> the founder and the brain behind the company&apos;s establishment, growth and success. His consistent developments over 39years made ELECTRICAL TESTING AND SERVICE ENGINEERS one of the leading solution provider in power sectors. His hard efforts has been paid off and the company now celebrating 39 years of excellency. 
                         </p>
                     </aside>
                     <img className='h-[340px] rounded-md' src="https://i.postimg.cc/MGBYBZkH/founder.jpg" alt="Founder" />
@@ -42,8 +42,8 @@ const About = () => {
                     </h2>
                     <article className='flex flex-wrap gap-14 items-center justify-center'>
                         {
-                            CUSTOMERS.map((customer) => (
-                                <img className='w-[130px]' src={customer} alt="AV" />
+                            CUSTOMERS.map((customer, index) => (
+                                <img key={index} className='w-[130px]' src={customer} alt="AV" />
                             ))
                         }
                     </article>
