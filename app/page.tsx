@@ -5,14 +5,14 @@ import React from 'react';
 const Home = () => {
   return (
     <main>
-      <section className='h-screen absolute w-full top-0'>
+      <section className='h-screen z-10 absolute w-full top-0'>
         <RetroGrid />
       </section>
-      <section className='mt-24 md:mt-48 w-full flex flex-col justify-center items-center md:px-32 px-4'>
-        <h2 className='md:text-6xl text-4xl font-extrabold max-w-[900px] text-center'>
+      <section className='mt-36 md:mt-48 w-full flex flex-col justify-center items-center md:px-32 px-4'>
+        <h2 className='md:text-6xl text-4xl font-extrabold max-w-[900px] text-center z-40'>
           Ensuring Electrical Safety and Reliability with <span className='text-etse-primary'>ETSE.</span>
         </h2>
-        <p className='my-6 md:text-xl text-lg text-center'>
+        <p className='my-6 md:text-xl text-lg text-center z-40'>
           Delivering Excellence in Electrical Testing and Services
         </p>
         <a href='mailto:etse1984@gmail.com' className='bg-etse-primary rounded-md px-12 py-3 z-40 text-xl hover:bg-etse-primary-hover mt-5 text-[white]'>
