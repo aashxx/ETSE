@@ -52,3 +52,24 @@ export const SERVICES: ServiceTypes[] = [
         description: "Assistance with obtaining all necessary electrical statutory approvals."
     },
 ];
+
+export const CUSTOMERS = [
+    "/adani.svg",
+    "/adp.svg",
+    "/bhel.svg",
+    "/cognizant.svg",
+    "/dell.svg",
+    "/deloitte.svg",
+    "/google.svg",
+    "/infosys.svg",
+    "/invest.svg",
+    "/lnt.svg",
+    "/mahindra.svg",
+    "/microsoft.svg",
+    "/nobel.svg",
+    "/paints.svg",
+    "/qualcomm.svg",
+    "/reddys.svg",
+    "/tech-mahi.svg",
+    "/wipro.svg"
+]

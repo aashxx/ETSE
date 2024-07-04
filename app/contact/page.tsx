@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
                 </h1>
             </section>
             <section className='w-[90%] mx-auto mt-10 mb-24 flex flex-wrap justify-center'>
-                <article className='md:pr-12 md:border-r-2 md:border-[#252526]'>
+                <article className='md:pr-12 md:border-r-2 md:border-etse-primary'>
                     <h3 className='text-2xl font-bold text-etse-primary mb-4'>
                         Primary Contact
                     </h3>
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
                     <h3 className='text-2xl font-bold text-etse-primary mb-4'>
                         Office
                     </h3>
-                    <iframe className='rounded-lg border border-etse-primary h-[280px] w-[370px] md:w-[470px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60886.86528362397!2d78.50022335716488!3d17.487019192314516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9c85910661b1%3A0xd2c164ea7a29168f!2sKapra%2C%20Secunderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1720073905827!5m2!1sen!2sin" loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className='rounded-lg border border-etse-primary h-[280px] w-[370px] md:w-[470px]' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3805.642979133929!2d78.561465!3d17.476793999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI4JzM2LjUiTiA3OMKwMzMnNDEuMyJF!5e0!3m2!1sen!2sin!4v1720082165531!5m2!1sen!2sin" loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </article>
             </section>
         </main>

@@ -24,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({openNav, setOpenNav}) => {
                     <Link href="/" onClick={() => setOpenNav(!openNav)}>Home</Link>
                 </li>
                 <li className='hover:text-etse-primary'>
-                    <Link href="/" onClick={() => setOpenNav(!openNav)}>About</Link>
+                    <Link href="/about" onClick={() => setOpenNav(!openNav)}>About</Link>
                 </li>
                 <li className='hover:text-etse-primary'>
                     <Link href="/services" onClick={() => setOpenNav(!openNav)}>Services</Link>
@@ -33,7 +33,7 @@ const Navbar: React.FC<NavbarProps> = ({openNav, setOpenNav}) => {
                     <Link href="/contact" onClick={() => setOpenNav(!openNav)}>Contact</Link>
                 </li>
             </ul>
-            <a href='mailto:' className='transition-all delay-75 font-normal ease-out text-lg rounded-md py-[5px] px-12 bg-etse-primary text-[white]'>
+            <a href='mailto:etse1984@gmail.com' className='transition-all delay-75 font-normal ease-out text-lg rounded-md py-[5px] px-12 bg-etse-primary text-[white]'>
                 Email
             </a>
         </nav>
