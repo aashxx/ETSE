@@ -4,7 +4,7 @@ import { LayoutProps } from '@/utils/types';
 import React, { useState } from 'react';
 import Navbar from './navbar';
 import MobileNavbar from './mobile-navbar';
-// import Footer from './Footer';
+import Footer from './footer';
 
 const PageLayout: React.FC<LayoutProps> = ({ children }) => {
 
@@ -17,7 +17,7 @@ const PageLayout: React.FC<LayoutProps> = ({ children }) => {
             <main>
                 {children}
             </main>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
