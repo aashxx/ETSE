@@ -1,12 +1,15 @@
 "use client";
 
+import AnimatedGradientText from '@/components/magicui/animated-shiny-text';
 import Card from '@/components/magicui/card';
 import RetroGrid from '@/components/magicui/retro-grid';
 import EquipCard from '@/custom-components/EquipCard';
+import { cn } from '@/lib/utils';
 import { CUSTOMERS, EQUIPMENTS, SERVICES } from '@/utils/constants';
 import { EquipCardProps } from '@/utils/types';
 import Link from 'next/link';
 import React from 'react';
+import { FaChevronRight } from 'react-icons/fa6';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -28,13 +31,24 @@ const Home = () => {
         <RetroGrid />
       </section>
       <section className='mt-36 md:mt-48 w-full flex flex-col justify-center items-center md:px-32 px-4'>
+        <AnimatedGradientText className='mb-6 -mt-5'>
+          ⚡ <hr className="mx-2 h-4 shrink-0 bg-gray-300" />{" "}
+          <span
+            className={cn(
+              `inline animate-gradient text-center bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
+            )}
+          >
+            Electrical Testing and Service Engineers
+          </span>
+          <FaChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+        </AnimatedGradientText>
         <h2 className='md:text-6xl text-4xl font-extrabold max-w-[900px] text-center z-40'>
           Ensuring Electrical Safety and Reliability with <span className='text-etse-primary'>ETSE.</span>
         </h2>
         <p className='my-6 md:text-xl text-lg text-center z-40'>
           Delivering Excellence in Electrical Testing and Services
         </p>
-        <Link href='/services' className='bg-etse-primary rounded-md px-12 py-3 z-40 text-xl hover:bg-etse-primary-hover mt-5 text-[white]'>
+        <Link href='/services' className='bg-etse-primary text-center rounded-md px-6 md:px-12 py-3 z-40 text-xl hover:bg-etse-primary-hover mt-5 text-[white]'>
           Schedule a Consultation
         </Link>
         <img className='md:max-w-[900px] rounded-lg mt-10 z-20' src="https://www.sjkelec.co.uk/wp-content/uploads/2023/10/AdobeStock_469246371-1.jpeg" alt="AV" />
@@ -86,7 +100,7 @@ const Home = () => {
           <div className='mt-10 flex flex-wrap text-white gap-14 md:gap-32 w-full justify-center'>
             <article className='text-center max-w-[100px]'>
               <strong className='text-5xl'>
-                50+
+                300+
               </strong>
               <p>
                 companies collaborated
@@ -102,7 +116,7 @@ const Home = () => {
             </article>
             <article className='text-center max-w-[100px]'>
               <strong className='text-5xl'>
-                10+
+                20+
               </strong>
               <p>
                 equipments owned

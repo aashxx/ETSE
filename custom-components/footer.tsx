@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='flex flex-col justify-between gap-6 md:flex-row md:mx-32 md:py-10'>
                 <article className='flex flex-col items-center gap-4 w-[200px]'>
                     <h3 className='text-2xl font-semibold'>
-                        Electrical Testing & Service Engineers.
+                        Electrical Testing and Service Engineers
                     </h3>
                 </article>
                 <aside className='flex flex-wrap gap-6 px-10 justify-center my-10 md:my-[unset] md:gap-14'>

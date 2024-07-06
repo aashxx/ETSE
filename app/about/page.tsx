@@ -40,6 +40,9 @@ const About = () => {
                     <h2 className='text-3xl text-etse-primary font-bold text-center mb-14'>
                         Our Top Customers
                     </h2>
+                    <p className='text-justify text-lg'>
+
+                    </p>
                     <article className='flex flex-wrap gap-14 items-center justify-center'>
                         {
                             CUSTOMERS.map((customer, index) => (

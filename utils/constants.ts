@@ -7,8 +7,8 @@ export const SERVICES: ServiceTypes[] = [
         description: "Includes feeder protection, transformer protection, generator protection etc."
     },
     {
-        img: "https://www.sigmatest.org/wp-content/uploads/2018/08/Transformer-oil-testing.jpg",
-        title: "Transformer Oil Testing/Filtration",
+        img: "https://media.noria.com/sites/magazine_images/201306/Test_Oils_Transformer_Image.jpg",
+        title: "Transformer Oil Testing & Filtration",
         description: "Ensure transformer longevity with oil testing and filtration."
     },
     {
@@ -71,7 +71,14 @@ export const CUSTOMERS = [
     "/qualcomm.svg",
     "/reddys.svg",
     "/tech-mahi.svg",
-    "/wipro.svg"
+    "/wipro.svg",
+    "/divis.svg",
+    "/gland.svg",
+    "/granules.svg",
+    "/india-cements.svg",
+    "/kirby.svg",
+    "/pennar.svg",
+    "/ultratech.svg"
 ]
 
 export const EQUIPMENTS = [

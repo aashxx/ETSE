@@ -14,8 +14,8 @@ const Navbar: React.FC<NavbarProps> = ({openNav, setOpenNav}) => {
             </div>
             <div className='w-[120px]'>
                 <Link href={'/'} onClick={() => setOpenNav(!openNav)}>
-                    <h2 className='font-extrabold text-4xl text-etse-primary'>
-                        ETSE.
+                    <h2 className='font-extrabold text-4xl text-etse-primary flex items-start'>
+                        ETSE <span className='text-sm'>⚡</span>
                     </h2>
                 </Link>
             </div>
