@@ -6,8 +6,8 @@ const MobileNavbar: React.FC<NavbarProps> = ({ openNav, setOpenNav }) => {
     return (
         <nav className='flex items-center justify-between p-4 md:hidden w-full backdrop-blur-2xl absolute top-0 z-20'>
             <div className='w-[150px] '>
-                <h2 className='font-extrabold text-4xl text-etse-primary'>
-                    ETSE.
+                <h2 className='font-extrabold text-4xl text-etse-primary flex items-start'>
+                    ETSE <span className='text-sm'>⚡</span>
                 </h2>
             </div>
             <div>
