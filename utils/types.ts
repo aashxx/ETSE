@@ -14,3 +14,8 @@ export interface ServiceTypes {
     title: string,
     description: string
 }
+
+export interface EquipCardProps {
+    img: string,
+    title: string,
+}

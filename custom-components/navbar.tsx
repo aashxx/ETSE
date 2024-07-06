@@ -30,6 +30,9 @@ const Navbar: React.FC<NavbarProps> = ({openNav, setOpenNav}) => {
                     <Link href="/services" onClick={() => setOpenNav(!openNav)}>Services</Link>
                 </li>
                 <li className='hover:text-etse-primary'>
+                    <Link href="/equipments" onClick={() => setOpenNav(!openNav)}>Equipments</Link>
+                </li>
+                <li className='hover:text-etse-primary'>
                     <Link href="/contact" onClick={() => setOpenNav(!openNav)}>Contact</Link>
                 </li>
             </ul>

@@ -4,12 +4,7 @@ export const SERVICES: ServiceTypes[] = [
     {
         img: "https://www.elecsupport.com/files/cache/fca3dcef6b77a67171117a5cae9efc8a_f438.jpg",
         title: "Testing of Relays",
-        description: "Comprehensive relay testing to ensure reliability and safety."
-    },
-    {
-        img: "https://5.imimg.com/data5/GQ/MY/MY-1780580/power-transformer-testing.jpg",
-        title: "Commissioning of Power Transformers",
-        description: "Expert commissioning services for optimal transformer performance."
+        description: "Includes feeder protection, transformer protection, generator protection etc."
     },
     {
         img: "https://www.sigmatest.org/wp-content/uploads/2018/08/Transformer-oil-testing.jpg",
@@ -17,14 +12,19 @@ export const SERVICES: ServiceTypes[] = [
         description: "Ensure transformer longevity with oil testing and filtration."
     },
     {
-        img: "https://5.imimg.com/data5/IR/RQ/YU/SELLER-3312739/ct-pt-testing-and-commissioning-500x500.jpg",
-        title: "CT/PT's Pre & Post Commissioning Testing",
-        description: "Testing CT/PTs for accuracy before and after commissioning."
-    },
-    {
         img: "https://5.imimg.com/data5/SELLER/Default/2022/10/KA/RQ/IA/9151114/digital-energy-meter-calibration-services-1000x1000.jpg",
         title: "Energy Meter Testing and Calibration",
         description: "Accurate testing and calibration of energy meters for precision."
+    },
+    {
+        img: "https://5.imimg.com/data5/GQ/MY/MY-1780580/power-transformer-testing.jpg",
+        title: "Commissioning of Power Transformers",
+        description: "Expert commissioning services for optimal transformer performance."
+    },
+    {
+        img: "https://5.imimg.com/data5/IR/RQ/YU/SELLER-3312739/ct-pt-testing-and-commissioning-500x500.jpg",
+        title: "CT/PT's Pre & Post Commissioning Testing",
+        description: "Testing CT/PTs for accuracy before and after commissioning."
     },
     {
         img: "https://5.imimg.com/data5/SELLER/Default/2023/6/319875245/OL/JL/TN/62220054/ht-lt-acb-maintenance-works.jpg",
@@ -72,4 +72,51 @@ export const CUSTOMERS = [
     "/reddys.svg",
     "/tech-mahi.svg",
     "/wipro.svg"
+]
+
+export const EQUIPMENTS = [
+    {
+        title: "Omicron 6 phase Relay Test Kit",
+        img: "https://www.omicronenergy.com/fileadmin/_processed_/a/0/csm_CMC-356-overview_d80400499a.png"    
+    },
+    {
+        title: "Sudharsan Current Injection Kit",
+        img: "https://5.imimg.com/data5/SELLER/Default/2021/3/AE/RQ/MK/486750/single-phase-current-injection-kit-500x500.png"    
+    },
+    {
+        title: "Extra High Voltage (Hipot) Test Kit",
+        img: "https://sudharsaninsulations.com/wp-content/uploads/2023/09/KPV-5KV.webp"    
+    },
+    {
+        title: "Hioki(Japan) Power Quality Analyzer",
+        img: "https://www.hioki.com/sites/default/files/2021-04/product_image5591.png"    
+    },
+    {
+        title: "Vehicle Mounted Transformer Oil Filtration Unit",
+        img: "https://tiimg.tistatic.com/fp/1/003/783/transformer-oil-filtration-pickupmounted-machine-470.jpg"    
+    },
+    {
+        title: "Scope Transformer Winding Resistance measurement Meter",
+        img: "https://www.scopetnm.com/media/k2/items/cache/e7c0584255fa6f2981e510285a9e9e4f_XL.jpg"    
+    },
+    {
+        title: "Scope Transformer Turns Ratio Kit",
+        img: "https://5.imimg.com/data5/SELLER/Default/2023/3/PG/PJ/YT/3051699/transformer-turns-ratio-meter-500x500.png"    
+    },
+    {
+        title: "Scope Contact Resistance Measurement Meter",
+        img: "https://www.scopetnm.com/media/k2/items/cache/39a27618f1dc54b80987c6706135e6b7_M.jpg"    
+    },
+    {
+        title: "Scope Circuit Breaker Time Interval Tester",
+        img: "https://5.imimg.com/data5/SELLER/Default/2023/5/310574208/BX/MQ/EH/3051699/digital-time-interval-meter-500x500.PNG"    
+    },
+    {
+        title: "Kyoritsu Digital Earth Tester",
+        img: "https://www.kew-ltd.co.jp/files/product_photo/4105A_en.png"    
+    },
+    {
+        title: "Kyoritsu High Voltage Insulation Tester",
+        img: "https://www.kew-ltd.co.jp/files/product_photo/3128.png"    
+    },
 ]

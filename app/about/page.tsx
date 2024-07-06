@@ -25,7 +25,7 @@ const About = () => {
                 <p className='text-lg max-w-[900px] mx-auto my-8 text-justify'>
                     We are happy to introduce ourselves that we are one of the Leading and Authorized agencies with more than 40 Years of service in the field of testing and calibration of protective relays Testing and Commissioning of Electrical Installations, preventive maintenance of Transformer, Switchgears, Power system Analysis, Field Engineering services, filtration of oil in transformers up to 220KV S/S
                 </p>
-                <div className='flex flex-col max-w-[900px] mx-auto gap-8 mb-7'>
+                <div className='md:max-w-[900px] w-full mx-auto mb-7 flex flex-col gap-8'>
                     <h2 className='text-3xl text-etse-primary font-bold text-center'>
                         Our Authorizations
                     </h2>
