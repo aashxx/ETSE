@@ -103,14 +103,20 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a className='flex gap-1 items-center' href="tel:+1(778)874-4788">
-                                    <IoMdCall />
-                                    040 - 27128888
+                                    <IoMdMail />
+                                    jvswamy@yahoo.com
                                 </a>
                             </li>
                             <li>
                                 <a className='flex gap-1 items-center' href="tel:+919840572975">
                                     <IoMdCall />
                                     +91 9949545959
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.linkedin.com/company/electrical-testing-and-service-engineers' target='blank' className='flex gap-2 items-center'>
+                                    <FaLinkedin />
+                                    LinkedIn
                                 </a>
                             </li>
                         </ul>

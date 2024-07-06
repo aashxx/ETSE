@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaLinkedin } from 'react-icons/fa6';
 import { IoMdCall, IoMdMail } from "react-icons/io";
 
 const Contact: React.FC = () => {
@@ -14,22 +15,24 @@ const Contact: React.FC = () => {
                     <h3 className='text-2xl font-bold text-etse-primary mb-4'>
                         Primary Contact
                     </h3>
-                    <aside className='flex flex-col md:gap-10 gap-8 text-xl px-6 md:px-10 py-12 rounded-md bg-[#f8f8f8] w-[370px] md:w-[370px] border border-etse-primary'>
+                    <aside className='flex flex-col md:gap-5 gap-4 text-xl px-6 md:px-10 py-12 rounded-md bg-[#f8f8f8] w-[370px] md:w-[370px] border border-etse-primary'>
                         <p className='flex gap-2 items-center'>
                             <IoMdMail />
                             etse1984@gmail.com
                         </p>
                         <p className='flex gap-2 items-center'>
-                            <IoMdCall />
-                            040 - 27128888
-                            <img className='ml-2' src={'/india.png'} alt="India" />
-
+                            <IoMdMail />
+                            jvswamy@yahoo.com
                         </p>
                         <p className='flex gap-2 items-center'>
                             <IoMdCall />
                             +91 9949545959
-                            <img src={'/india.png'} alt="India" />
+                            <img className='h-[25px]' src={'/india.png'} alt="India" />
                         </p>
+                        <a href='https://www.linkedin.com/company/electrical-testing-and-service-engineers' target='blank' className='flex gap-2 items-center'>
+                            <FaLinkedin />
+                            LinkedIn
+                        </a>
                     </aside>
                 </article>
                 <article className='md:pl-12 mt-4 md:mt-[unset]'>

@@ -9,13 +9,16 @@ const Equipments = () => {
                 <h1 className='md:text-5xl text-4xl text-center w-full px-4 text-etse-primary'>
                     Instruments Used
                 </h1>
-                <div className='flex flex-wrap gap-5 items-center justify-center my-10'>
+                <div className='flex flex-wrap gap-5 items-center justify-center mt-10'>
                     {
                         EQUIPMENTS.map((equipment, index) => (
                             <EquipCard key={index} img={equipment.img} title={equipment.title} />
                         ))
                     }
                 </div>
+                <p className='text-lg mb-4 text-center w-full'>
+                    There are many more instruments like this used by our company
+                </p>
             </section>
         </main>
     )

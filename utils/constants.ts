@@ -8,7 +8,7 @@ export const SERVICES: ServiceTypes[] = [
     },
     {
         img: "https://media.noria.com/sites/magazine_images/201306/Test_Oils_Transformer_Image.jpg",
-        title: "Transformer Oil Testing & Filtration",
+        title: "Transformer Testing & Oil Filtration",
         description: "Ensure transformer longevity with oil testing and filtration."
     },
     {
@@ -126,4 +126,8 @@ export const EQUIPMENTS = [
         title: "Kyoritsu High Voltage Insulation Tester",
         img: "https://www.kew-ltd.co.jp/files/product_photo/3128.png"    
     },
+    {
+        title: "Thermographic Camera",
+        img: "https://images.squarespace-cdn.com/content/v1/55e96d36e4b01975d06bdefc/1560342525848-YN4D5LTGIHKHID7XBNFF/Electrical+Inspections"
+    }
 ]
