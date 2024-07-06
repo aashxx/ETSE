@@ -1,5 +1,6 @@
 "use client";
 
+import Head from 'next/head';
 import AnimatedGradientText from '@/components/magicui/animated-shiny-text';
 import Card from '@/components/magicui/card';
 import RetroGrid from '@/components/magicui/retro-grid';
@@ -27,6 +28,20 @@ const Home = () => {
 
   return (
     <main>
+      <Head>
+        <title>Home | Electrical Testing and Service Engineers</title>
+        <meta name="description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+        <meta name="keywords" content="relay testing in Hyderabad, transformer testing in Hyderabad, energy meter calibration in Hyderabad, relay testing, transformer testing, energy meter calibration" />
+        <meta property="og:title" content="Home | Electrical Testing and Service Engineers" />
+        <meta property="og:description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+        <meta property="og:image" content="https://www.sjkelec.co.uk/wp-content/uploads/2023/10/AdobeStock_469246371-1.jpeg" />
+        <meta property="og:url" content="https://www.etse.co.in" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Home | Electrical Testing and Service Engineers" />
+        <meta name="twitter:description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+        <meta name="twitter:image" content="https://www.sjkelec.co.uk/wp-content/uploads/2023/10/AdobeStock_469246371-1.jpeg" />
+        <link rel="canonical" href="https://www.etse.co.in" />
+      </Head>
       <section className='h-screen z-10 absolute w-full top-0'>
         <RetroGrid />
       </section>
