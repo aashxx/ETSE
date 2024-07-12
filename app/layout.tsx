@@ -2,6 +2,7 @@ import { Metadata } from "@/utils/types";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import PageLayout from "@/custom-components/page-layout";
+import Head from "next/head";
 
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
@@ -31,6 +32,22 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Electrical Testing and Service Engineers",
+  "url": "https://www.etse.co.in",
+  "logo": "https://i.postimg.cc/MGBYBZkH/founder.jpg",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919949545959",
+    "contactType": "Customer Service"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/electrical-testing-and-service-engineers"
+  ]
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -38,7 +55,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.canonical} />
@@ -60,7 +77,11 @@ export default function RootLayout({
             <meta name="twitter:image" content={metadata.twitter.image} />
           </>
         )}
-      </head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </Head>
       <body className={dm_sans.className}>
         <PageLayout>
           {children}
