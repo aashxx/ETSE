@@ -29,16 +29,16 @@ const Home = () => {
   return (
     <main>
       <Head>
-        <title>Home | Electrical Testing and Service Engineers</title>
-        <meta name="description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+        <title>Home | Electrical Testing & Service Engineers</title>
+        <meta name="description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad." />
         <meta name="keywords" content="relay testing in Hyderabad, transformer testing in Hyderabad, energy meter calibration in Hyderabad, relay testing, transformer testing, energy meter calibration" />
         <meta property="og:title" content="Home | Electrical Testing and Service Engineers" />
-        <meta property="og:description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+        <meta property="og:description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad." />
         <meta property="og:image" content="https://www.sjkelec.co.uk/wp-content/uploads/2023/10/AdobeStock_469246371-1.jpeg" />
         <meta property="og:url" content="https://www.etse.co.in" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Home | Electrical Testing and Service Engineers" />
-        <meta name="twitter:description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+        <meta name="twitter:description" content="Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad." />
         <meta name="twitter:image" content="https://www.sjkelec.co.uk/wp-content/uploads/2023/10/AdobeStock_469246371-1.jpeg" />
         <link rel="canonical" href="https://www.etse.co.in" />
       </Head>
@@ -57,9 +57,9 @@ const Home = () => {
           </span>
           <FaChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
         </AnimatedGradientText>
-        <h2 className='md:text-6xl text-4xl font-extrabold max-w-[900px] text-center z-40'>
+        <h1 className='md:text-6xl text-4xl font-extrabold max-w-[900px] text-center z-40'>
           Ensuring Electrical Safety and Reliability with <span className='text-etse-primary'>ETSE.</span>
-        </h2>
+        </h1>
         <p className='my-6 md:text-xl text-lg text-center z-40'>
           Delivering Excellence in Electrical Testing and Services
         </p>

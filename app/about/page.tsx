@@ -6,23 +6,23 @@ const About = () => {
     return (
         <main className='relative overflow-hidden pt-11 md:pt-24 overflow-x-hidden text-etse-secondary px-6'>
             <Head>
-                <title>About Us | Electrical Testing and Service Engineers</title>
-                <meta name="description" content="Learn about Electrical Testing and Service Engineers, a leading provider of relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+                <title>About | Electrical Testing & Service Engineers</title>
+                <meta name="description" content="Learn about Electrical Testing and Service Engineers, a provider of relay testing, transformer testing and energy meter calibration services in Hyderabad." />
                 <meta name="keywords" content="relay testing in Hyderabad, transformer testing in Hyderabad, energy meter calibration in Hyderabad, relay testing, transformer testing, energy meter calibration" />
                 <meta property="og:title" content="About Us | Electrical Testing and Service Engineers" />
-                <meta property="og:description" content="Learn about Electrical Testing and Service Engineers, a leading provider of relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+                <meta property="og:description" content="Learn about Electrical Testing and Service Engineers, a provider of relay testing, transformer testing and energy meter calibration services in Hyderabad." />
                 <meta property="og:image" content="https://i.postimg.cc/MGBYBZkH/founder.jpg" />
                 <meta property="og:url" content="https://www.etse.co.in/about" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="About Us | Electrical Testing and Service Engineers" />
-                <meta name="twitter:description" content="Learn about Electrical Testing and Service Engineers, a leading provider of relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence." />
+                <meta name="twitter:description" content="Learn about Electrical Testing and Service Engineers, a provider of relay testing, transformer testing and energy meter calibration services in Hyderabad." />
                 <meta name="twitter:image" content="https://i.postimg.cc/MGBYBZkH/founder.jpg" />
                 <link rel="canonical" href="https://www.etse.co.in/about" />
             </Head>
             <section className='flex flex-col items-center py-10 mt-6 md:mt-0 text-center gap-10 md:items-start md:text-left md:px-32 md:gap-4'>
-                <h1 className='md:text-5xl text-4xl text-center w-full px-4 text-etse-primary'>
+                <h2 className='md:text-5xl text-4xl text-center w-full px-4 text-etse-primary'>
                     About Us
-                </h1>
+                </h2>
                 <p className='text-lg max-w-[900px] mx-auto my-8'>
                     Our company started in 1984 exclusively as a Service Oriented Technocrat Organization for testing and commissioning of Electrical Installations and now it&apos;s becoming a solution provider for many industries.
                 </p>

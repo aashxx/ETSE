@@ -6,12 +6,13 @@ import PageLayout from "@/custom-components/page-layout";
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Relay Testing and Transformer Testing in Hyderabad | Electrical Testing and Service Engineers",
-  description: "Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence.",
+  title: "Relay Testing in Hyderabad | Electrical Testing Services",
+  description: "Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad.",
   keywords: "relay testing in Hyderabad, transformer testing in Hyderabad, energy meter calibration in Hyderabad, relay testing, transformer testing, energy meter calibration",
+  canonical: "https://www.etse.co.in",
   openGraph: {
-    title: "Relay Testing and Transformer Testing in Hyderabad | Electrical Testing and Service Engineers",
-    description: "Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence.",
+    title: "Relay Testing in Hyderabad | Electrical Testing Services",
+    description: "Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad.",
     url: "https://www.etse.co.in",
     images: [
       {
@@ -24,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Relay Testing and Transformer Testing in Hyderabad | Electrical Testing and Service Engineers",
-    description: "Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad. Established in 1984 with over 40 years of excellence.",
+    title: "Relay Testing in Hyderabad | Electrical Testing Services",
+    description: "Electrical Testing and Service Engineers provide expert relay testing, transformer testing, and energy meter calibration services in Hyderabad.",
     image: "https://i.postimg.cc/MGBYBZkH/founder.jpg",
   },
 };
@@ -40,6 +41,7 @@ export default function RootLayout({
       <head>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
+        <link rel="canonical" href={metadata.canonical} />
         {metadata.openGraph && (
           <>
             <meta property="og:title" content={metadata.openGraph.title} />

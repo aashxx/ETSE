@@ -45,6 +45,7 @@ export interface Metadata {
     title: string;
     description: string;
     keywords: string;
+    canonical: string;
     openGraph: OpenGraph;
     twitter: Twitter;
 }
