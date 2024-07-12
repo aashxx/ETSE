@@ -36,8 +36,16 @@ const jsonLd = {
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "Electrical Testing and Service Engineers",
+  "@id": "https://www.etse.co.in",
   "url": "https://www.etse.co.in",
   "logo": "https://i.postimg.cc/MGBYBZkH/founder.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Plot No. 10 W, Anupuram, Kapra, ECIL Post",
+    "addressLocality": "Hyderabad",
+    "postalCode": "500062",
+    "addressCountry": "IN"
+  },
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+919949545959",
@@ -56,6 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.canonical} />
