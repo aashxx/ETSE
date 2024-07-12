@@ -62,7 +62,6 @@ export const CUSTOMERS = [
     "/deloitte.svg",
     "/google.svg",
     "/infosys.svg",
-    "/invest.svg",
     "/lnt.svg",
     "/mahindra.svg",
     "/microsoft.svg",
