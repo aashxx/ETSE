@@ -92,9 +92,9 @@ export default function RootLayout({
         />
       </Head>
       <body className={dm_sans.className}>
-        {/* <PageLayout>
+        <PageLayout>
           {children}
-        </PageLayout> */}
+        </PageLayout>
       </body>
     </html>
   );
