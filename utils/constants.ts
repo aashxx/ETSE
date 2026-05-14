@@ -7,7 +7,7 @@ export const SERVICES: ServiceTypes[] = [
         description: "Includes feeder protection, transformer protection, generator protection etc."
     },
     {
-        img: "https://media.noria.com/sites/magazine_images/201306/Test_Oils_Transformer_Image.jpg",
+        img: "https://www.corepower.co.in/images/online-offline-oil.jpg",
         title: "Transformer Testing & Oil Filtration",
         description: "Ensure transformer longevity with oil testing and filtration."
     },
@@ -42,7 +42,7 @@ export const SERVICES: ServiceTypes[] = [
         description: "Regular maintenance for uninterrupted substation and switchyard operations."
     },
     {
-        img: "https://abslearning.in/wp-content/uploads/2020/12/abs-solution5.jpg",
+        img: "https://productimages.withfloats.com/serviceimages/tile/654d998374481f3f926bc550annual-management-contracts-obj",
         title: "Annual Maintenance Contract",
         description: "Comprehensive annual contracts for ongoing electrical maintenance."
     },
@@ -119,11 +119,11 @@ export const EQUIPMENTS = [
     },
     {
         title: "Kyoritsu Digital Earth Tester",
-        img: "https://www.kew-ltd.co.jp/files/product_photo/4105A_en.png"    
+        img: "https://cdn.moglix.com/p/NFCpeTgfRzJjA-xxlarge.jpg"    
     },
     {
         title: "Kyoritsu High Voltage Insulation Tester",
-        img: "https://www.kew-ltd.co.jp/files/product_photo/3128.png"    
+        img: "https://www.kew-ltd.co.jp/files/co/photo_product/3125A.jpg"    
     },
     {
         title: "Thermographic Camera",

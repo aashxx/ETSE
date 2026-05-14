@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
                     <h3 className='text-2xl font-bold text-etse-primary mb-4'>
                         Office
                     </h3>
-                    <iframe className='rounded-lg border border-etse-primary h-[280px] w-[370px] md:w-[470px]' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3805.642979133929!2d78.561465!3d17.476793999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI4JzM2LjUiTiA3OMKwMzMnNDEuMyJF!5e0!3m2!1sen!2sin!4v1720082165531!5m2!1sen!2sin" loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className='rounded-lg border border-etse-primary h-[280px] w-[370px] md:w-[470px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.208259530587!2d78.5861492!3d17.4975692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9dee480d5e89%3A0x6846aea2f4891b68!2sElectrical%20Testing%20and%20Service%20Engineers%20-%20ETSE!5e0!3m2!1sen!2sin!4v1778600134703!5m2!1sen!2sin" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </article>
             </section>
         </main>

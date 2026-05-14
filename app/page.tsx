@@ -63,7 +63,7 @@ const Home = () => {
         <p className='my-6 md:text-xl text-lg text-center z-40'>
           Delivering Excellence in Electrical Testing and Services
         </p>
-        <Link href='/services' className='bg-etse-primary text-center rounded-md px-6 md:px-12 py-3 z-40 text-xl hover:bg-etse-primary-hover mt-5 text-[white]'>
+        <Link href='/contact' className='bg-etse-primary text-center rounded-md px-6 md:px-12 py-3 z-40 text-xl hover:bg-etse-primary-hover mt-5 text-[white]'>
           Schedule a Consultation
         </Link>
         <img className='md:max-w-[900px] rounded-lg mt-10 z-20' src="https://www.sjkelec.co.uk/wp-content/uploads/2023/10/AdobeStock_469246371-1.jpeg" alt="AV" />
