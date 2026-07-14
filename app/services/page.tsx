@@ -20,7 +20,7 @@ const Services = () => {
                 <meta name="twitter:image" content="https://www.elecsupport.com/files/cache/fca3dcef6b77a67171117a5cae9efc8a_f438.jpg" />
                 <link rel="canonical" href="https://www.etse.co.in/services" />
             </Head>
-            <section className='flex flex-col items-center py-10 mt-6 md:mt-0 text-center gap-10 md:items-start md:text-left md:px-32 md:gap-4'>
+            <section id="services" className='flex flex-col items-center py-10 mt-6 md:mt-0 text-center gap-10 md:items-start md:text-left md:px-32 md:gap-4 scroll-mt-24 md:scroll-mt-32'>
                 <h2 className='md:text-5xl text-4xl text-center w-full px-4 text-etse-primary'>
                     Our Services
                 </h2>

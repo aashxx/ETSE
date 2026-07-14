@@ -19,7 +19,7 @@ const About = () => {
                 <meta name="twitter:image" content="https://i.postimg.cc/MGBYBZkH/founder.jpg" />
                 <link rel="canonical" href="https://www.etse.co.in/about" />
             </Head>
-            <section className='flex flex-col items-center py-10 mt-6 md:mt-0 text-center gap-10 md:items-start md:text-left md:px-32 md:gap-4'>
+            <section id="company" className='flex flex-col items-center py-10 mt-6 md:mt-0 text-center gap-10 md:items-start md:text-left md:px-32 md:gap-4 scroll-mt-24 md:scroll-mt-32'>
                 <h2 className='md:text-5xl text-4xl text-center w-full px-4 text-etse-primary'>
                     About Us
                 </h2>
@@ -40,18 +40,18 @@ const About = () => {
                 <p className='text-lg max-w-[900px] mx-auto my-8 text-justify'>
                     We are happy to introduce ourselves as one of the Leading and Authorized agencies with more than 40 Years of service in the field of testing and calibration of protective relays, Testing and Commissioning of Electrical Installations, preventive maintenance of Transformers, Switchgears, Power system Analysis, Field Engineering services, filtration of oil in transformers up to 220KV S/S.
                 </p>
-                <div className='md:max-w-[900px] w-full mx-auto mb-7 flex flex-col gap-8'>
+                <div id="authorization" className='md:max-w-[900px] w-full mx-auto mb-7 flex flex-col gap-8 scroll-mt-24 md:scroll-mt-32'>
                     <h2 className='text-3xl text-etse-primary font-bold text-center'>
                         Our Authorizations
                     </h2>
                     <p className='text-justify text-lg'>
-                        We are authorised by the Chief Electrical Inspector to <strong>Government of ANDHRA PRADESH</strong> vide Authorisation No. <strong>DES&CEIG/Tech/OTK&PRK/D.No.109/2021</strong> dated 18.05.2021, Validity up to 18.05.2024.
+                        We are authorised by the Chief Electrical Inspector to <strong>Government of ANDHRA PRADESH</strong> vide Authorisation No. <strong>DES&CEIG/GNT/TechSec/OTK&PRK/D.No.873/2024</strong> dated 29.05.2024, Validity up to 29.05.2027.
                     </p>
                     <p className='text-justify text-lg'>
                         We are authorised by the Chief Electrical Inspector to <strong>Government of TELANGANA</strong> vide Authorisation No. <strong>CEIG/TS/OTK/PRT/No.09/D.No.1899/2023</strong> dated 17.08.2023, Validity up to 17.08.2026.
                     </p>
                 </div>
-                <div className='max-w-[900px] mx-auto'>
+                <div id="customers" className='max-w-[900px] mx-auto scroll-mt-24 md:scroll-mt-32'>
                     <h2 className='text-3xl text-etse-primary font-bold text-center mb-14'>
                         Our Top Customers
                     </h2>

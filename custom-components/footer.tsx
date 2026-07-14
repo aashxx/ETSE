@@ -13,76 +13,52 @@ const Footer = () => {
                     </h3>
                 </article>
                 <aside className='flex flex-wrap gap-6 px-10 justify-center my-10 md:my-[unset] md:gap-14'>
-                    {/* <article className='flex flex-col gap-3'>
-                        <h3 className='text-sm'>
-                            <Link href="/">
-                                Socials
-                            </Link>
-                        </h3>
-                        <ul className='text-sm'>
-                            <li>
-                                <a href="/" className='flex gap-1 items-center'>
-                                    <FaXTwitter /> Twitter
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/" className='flex gap-1 items-center'>
-                                    <FaInstagram /> Instagram
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/" className='flex gap-1 items-center'>
-                                    <FaLinkedin /> LinkedIn
-                                </a>
-                            </li>
-                        </ul>
-                    </article> */}
                     <article className='flex flex-col gap-3'>
                         <h3 className='text-sm'>
-                            <Link href="/about">
+                            <Link href="/about#company">
                                 About
                             </Link>
                         </h3>
                         <ul className='text-sm'>
                             <li>
-                                <Link href="/about">
+                                <Link href="/about#company">
                                     Company
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/about">
+                                <Link href="/about#authorization">
                                     Authorization
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/about">
+                                <Link href="/about#customers">
                                     Customers
                                 </Link>
                             </li>
                         </ul>
                     </article>
                     <article className='flex flex-col gap-3'>
-                        <Link href={'/services'} className='text-sm'>
+                        <Link href={'/services#services'} className='text-sm'>
                             Services
                         </Link>
                         <ul className='text-sm'>
                             <li>
-                                <Link href="/services">
+                                <Link href="/services#services">
                                     Testing & Calibration
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services">
+                                <Link href="/services#services">
                                     Transformers
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services">
+                                <Link href="/services#services">
                                     Maintenance
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services">
+                                <Link href="/services#services">
                                     Approvals
                                 </Link>
                             </li>
@@ -90,25 +66,25 @@ const Footer = () => {
                     </article>
                     <article className='flex flex-col gap-3'>
                         <h3 className='text-sm'>
-                            <Link href="/contact">
+                            <Link href="/contact#contact">
                                 Contact
                             </Link>
                         </h3>
                         <ul className='text-sm'>
                             <li>
-                                <a className='flex gap-1 items-center' href="mailto:astrapimoney@gmail.com?subject=Meeting%20Request">
+                                <a className='flex gap-1 items-center' href="mailto:etse1984@gmail.com?subject=Meeting%20Request">
                                     <IoMdMail />
                                     etse1984@gmail.com
                                 </a>
                             </li>
                             <li>
-                                <a className='flex gap-1 items-center' href="tel:+1(778)874-4788">
+                                <a className='flex gap-1 items-center' href="mailto:jvswamy@yahoo.com?subject=Meeting%20Request">
                                     <IoMdMail />
                                     jvswamy@yahoo.com
                                 </a>
                             </li>
                             <li>
-                                <a className='flex gap-1 items-center' href="tel:+919840572975">
+                                <a className='flex gap-1 items-center' href="tel:+919949545959">
                                     <IoMdCall />
                                     +91 9949545959
                                 </a>
@@ -125,10 +101,10 @@ const Footer = () => {
             </div>
             <aside className='flex justify-between items-center border-t-2 border-solid border-t-allotrix-std pt-6 md:mx-32'>
                 <h4 className='text-md'>
-                    All rights reserved &copy; 2024.
+                    All rights reserved &copy; 2026.
                 </h4>
                 <div className='text-[13px] font-light py-1 px-4 rounded-2xl text-[white] transition-all duration-300 ease-out border border-[white] hover:bg-[white] hover:text-etse-primary'>
-                    <Link href='/contact'>
+                    <Link href='/contact#contact'>
                         Book
                     </Link>
                 </div>

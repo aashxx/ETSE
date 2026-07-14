@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
                 <meta name="twitter:description" content="Get in touch with ETSE for relay testing, transformer testing, and other electrical services in Hyderabad. Reach us via email, phone, or LinkedIn." />
                 <link rel="canonical" href="https://www.etse.co.in/contact" />
             </Head>
-            <section className='flex flex-col items-center py-14 mt-6 md:mt-0 text-center gap-10 md:items-start md:text-left md:px-32 md:gap-4'>
+            <section id="contact" className='flex flex-col items-center py-14 mt-6 md:mt-0 text-center gap-10 md:items-start md:text-left md:px-32 md:gap-4 scroll-mt-24 md:scroll-mt-32'>
                 <h2 className='md:text-5xl text-4xl text-center w-full px-4 text-etse-primary'>
                    Reach Out to Us
                 </h2>
