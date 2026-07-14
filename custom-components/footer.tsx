@@ -37,6 +37,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </article>
+                    
                     <article className='flex flex-col gap-3'>
                         <Link href={'/services#services'} className='text-sm'>
                             Services
